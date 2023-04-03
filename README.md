@@ -1,2 +1,0 @@
-# danielgeitz.github.io
- 
