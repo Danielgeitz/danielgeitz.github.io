@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,');
+
+*{
+    color: var(--text_color);
+}
+
+div.overview{
+    display: flex;
+    border: 3px solid green;  
+}
+
+div.header{
+    border: 3px dotted white;
+    display: inline;
+    color: var(--text_color);
+    font-family: "Montserrat", "san-serif";
+    font-size: 24px;
+}
+div.left_right{
+    display: inline;
+    border: 3px solid greenyellow;
+    align-items: center;
+    padding-left: 25%;
+}
+
+div.left{
+    border: 3px solid blueviolet;
+    box-sizing: border-box;
+    align-items: center;
+    display: inline-block;
+    margin-left: none;
+    margin-right: none;
+}
+
+div.right{
+    display: inline-block;
+    box-sizing: border-box;
+    align-items: center;
+    margin-left: none;
+    margin-right: none;
+    border: 3px solid red;
+
+}
+
+div.left h2{
+    display: block;
+    color: var(--primary_color);
+    background-color: var(--text_color);
+    padding: auto;
+    border: 3px solid blue;
+    text-align: center;
+    font-family: "Montserrat", "san-serif";
+    font-size: 18px;
+    font-weight: lighter;
+}
+div.right h2{
+    display: block;
+    color: var(--primary_color);
+    background-color: var(--text_color);
+    padding: auto;
+    border: 3px solid blue;
+    text-align: center;
+    font-family: "Montserrat", "san-serif";
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+div.left img{
+    display: block;
+    padding: auto;
+    border: 3px solid yellow;
+    height: 250px;
+    width: 350px; 
+}
+div.right img{
+    display: block;
+    padding: auto;
+    border: 3px solid yellow;
+    height: 250px;
+    width: 350px;; 
+}
+
+div.left h3{
+    display: block;
+    margin-right: auto;
+    border: 3px solid white;
+    background-color: var( --primary2_color);
+    color: var(--text_color);
+    text-align: center;
+    font-family: "Montserrat", "san-serif";
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+div.right h3{
+    display: block;
+    margin-right: auto;
+    border: 3px solid white;
+    background-color: var( --primary2_color);
+    color: var(--text_color);
+    text-align: center;
+    font-family: "Montserrat", "san-serif";
+    font-size: 14px;
+    font-weight: lighter;
+}

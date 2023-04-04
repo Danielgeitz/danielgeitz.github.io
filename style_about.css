@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,');
+
+
+h1{
+    padding-left: 5%;
+    padding-top: 3%;
+    text-align: justify;
+    font-size: 36px;
+    font-family: "Montserrat", "san-serif";
+    font-weight: lighter;
+    color: var(--text_color);    
+}

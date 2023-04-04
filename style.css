@@ -7,11 +7,18 @@
     background-color: #181818;
 }
 
+:root{
+    --text_color: #edf0f1;
+    --primary_color: #181818;
+    --primary2_color: #363636;
+    --secondry_color: #0088a9;
+}
+
 li, a, button{
     font-family: "Montserrat", "san-serif";
     font-weight: 500;
     font-size: 16;
-    color: #edf0f1;
+    color: var(--text_color);
     text-decoration: none;
 }
 
@@ -19,14 +26,15 @@ header{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 15px 5%;
+    background-color: var(--primary2_color);
 }
 
 .logo{
     cursor: pointer;
     margin-right: auto;
     vertical-align: middle;
-    margin-left: -7%;
+    margin-left: -2%;
     height: 60px;
     width: 60px;
     background-color: #edf0f1;
@@ -38,12 +46,19 @@ header{
 
 .nav_links[aria-current="page"]{
     text-decoration: underline wavy yellow 0.15rem;   
+}
 
+ul.nav_links li{
+    background-color: var(--primary2_color);
+}
+
+ul.nav_links{
+    background-color: var(--primary2_color);
 }
 
 .nav_links li{
     display: inline-block;
-    padding: 0px 5px;
+    padding: 0px 0px;
 }
 
 .nav_links li a{
@@ -66,8 +81,13 @@ header{
 }*/
 
 .nav_links li a:hover{
-    color: #0088a9;
+    color: var(--secondry_color);
 }
+
+button:hover{
+    background-color: var(--secondry_color);
+}
+
 
 /*button{
     padding: 9px 25px;
@@ -77,7 +97,3 @@ header{
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }*/
-
-button:hover{
-    background-color: rgb(15, 148, 182);
-}
