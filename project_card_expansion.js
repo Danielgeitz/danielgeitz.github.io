@@ -11,10 +11,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-    document.addEventListener('click', (event) => {
-        if (!event.target.closest('.project-card')) {
-            document.querySelectorAll('.project-card').forEach(card => card.classList.remove('expanded'));
-        }
-    });
 });
