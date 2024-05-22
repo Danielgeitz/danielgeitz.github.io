@@ -3,10 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     projectCards.forEach(card => {
         card.addEventListener('click', () => {
-            if (card.classList.contains('expanded')) {
-                card.classList.remove('expanded');
-            } else {
-                document.querySelectorAll('.project-card').forEach(c => c.classList.remove('expanded'));
+            const isExpanded = card.classList.contains('expanded');
+            projectCards.forEach(c => c.classList.remove('expanded'));
+            if (!isExpanded) {
                 card.classList.add('expanded');
             }
         });
