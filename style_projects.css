@@ -12,7 +12,7 @@ h1 {
     padding-top: 3%;
     text-align: left;
     font-size: 36px;
-    font-family: "Montserrat", "san-serif";
+    font-family: "Montserrat", "sans-serif";
     font-weight: lighter;
     color: var(--text_color);    
 }
@@ -25,27 +25,35 @@ h1 {
 }
 
 .card {
-    flex: 0 0 30%;
+    flex: 0 0 25%; /* Adjusted width */
     margin: 10px;
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.2s;
+    height: 350px; /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .card img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
+    height: 180px; /* Adjusted height */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
 }
 
 .card h3 {
     margin: 10px;
+    font-size: 18px; /* Adjusted font size */
 }
 
 .card p {
     margin: 10px;
     color: #555;
+    font-size: 14px; /* Adjusted font size */
+    flex-grow: 1; /* Allow description to take available space */
 }
 
 .card:hover {
