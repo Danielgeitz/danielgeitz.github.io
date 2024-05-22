@@ -34,6 +34,8 @@ header{
 footer {
     background-color: var(--primary_color);
     color: var(--text_color);
+    font-family: "Montserrat", "sans-serif";
+    font-weight: lighter;
     text-align: center;
     font-size: 12px;
     padding: 20px 0;
