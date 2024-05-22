@@ -132,15 +132,15 @@ h1 {
     border: none;
     color: var(--text_color);
     cursor: pointer;
-    width: 40px;
-    height: 40px;
+    width: 55px;
+    height: 55px;
     border-radius: 50%;
 }
 
 .prev-btn {
-    left: 30px;
+    left: 20px;
 }
 
 .next-btn {
-    right: 30px;
+    right: 20px;
 }
