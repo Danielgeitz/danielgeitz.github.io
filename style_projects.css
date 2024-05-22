@@ -6,6 +6,7 @@ body {
 
 .portfolio {
     display: flex;
+    justify-content: center; /* Centering the cards horizontally */
     overflow-x: auto;
     padding: 20px;
 }
@@ -19,6 +20,7 @@ body {
     cursor: pointer;
     transition: transform 0.2s;
 }
+
 
 .card img {
     width: 100%;
