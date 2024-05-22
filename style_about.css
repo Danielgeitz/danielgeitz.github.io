@@ -21,7 +21,7 @@ h1 {
     margin: 0;
 }
 
-h2{
+.container h2{
     color: var(--secondary_color);
 }
 
@@ -47,10 +47,10 @@ h2{
 .profile-pic {
     flex: 1;
     text-align: center;
-    border: var(--secondary_color);
 }
 
 .profile-pic img {
+    border: var(--secondary_color);
     width: 200px; /* Adjust as needed */
     height: auto;
     border-radius: 50%;

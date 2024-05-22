@@ -4,6 +4,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1{
+    color: var(--text_color);
+}
+
 .portfolio {
     display: flex;
     justify-content: center; /* Centering the cards horizontally */
