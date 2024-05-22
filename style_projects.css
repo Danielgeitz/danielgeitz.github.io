@@ -119,16 +119,18 @@ h1 {
     cursor: pointer;
 }
 
-.prev-btn,
-.next-btn {
+.nav-btn {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     font-size: 24px;
     background: none;
     border: none;
-    color: #fff;
+    color: var(--text_color);
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 .prev-btn {
