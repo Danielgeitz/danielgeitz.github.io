@@ -30,6 +30,16 @@ header{
     background-color: var(--primary2_color);
 }
 
+footer {
+    background-color: var(--primary_color);
+    color: var(--text_color);
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 .logo{
     cursor: pointer;
     margin-right: auto;
@@ -97,13 +107,3 @@ button:hover{
     cursor: pointer;
     transition: all 0.3 ease 0s;
 }*/
-
-footer {
-    background-color: var(--primary_color);
-    color: var(--text_color);
-    text-align: center;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
