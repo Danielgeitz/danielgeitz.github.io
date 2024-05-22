@@ -54,7 +54,7 @@ h1 {
 }
 
 body.blur {
-    filter: blur(0.1px);
+    filter: blur(0px);
 }
 
 body.blur .project-card.expanded {
