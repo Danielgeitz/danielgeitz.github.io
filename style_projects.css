@@ -69,7 +69,7 @@ body.blur .project-card.expanded {
 }
 
 .project-card.expanded img {
-    height: 50%;
+    height: 90%;
 }
 
 .project-info {
