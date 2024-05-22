@@ -51,8 +51,8 @@ h1 {
 }
 
 .card p {
+    color: var(--text_color);
     margin: 10px;
-    color: var(--text2_color);
     font-size: 14px; /* Adjusted font size */
     flex-grow: 1; /* Allow description to take available space */
 }
