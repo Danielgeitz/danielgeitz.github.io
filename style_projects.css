@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    transition: filter 0.3s ease;
 }
 
 #portfolio {
@@ -32,9 +33,10 @@ h1 {
     margin: 10px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, max-height 0.5s ease;
+    transition: transform 0.3s ease, width 0.5s ease, height 0.5s ease;
     cursor: pointer;
     position: relative;
+    z-index: 1;
 }
 
 .project-card:hover {
@@ -42,16 +44,27 @@ h1 {
 }
 
 .project-card.expanded {
-    max-height: 80vh;
+    position: fixed;
+    top: 5%;
+    left: 5%;
     width: 90%;
-    margin: auto;
-    transform: scale(1);
+    height: 90%;
+    z-index: 1000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+body.blur {
+    filter: blur(5px);
 }
 
 .project-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+}
+
+.project-card.expanded img {
+    height: 50%;
 }
 
 .project-info {
@@ -70,12 +83,24 @@ h1 {
 
 .more-info {
     display: none;
-    transition: opacity 0.3s ease;
-    opacity: 0;
 }
 
 .project-card.expanded .more-info {
     display: block;
-    opacity: 1;
     margin-top: 20px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+.project-card.expanded .close-btn {
+    display: block;
 }
