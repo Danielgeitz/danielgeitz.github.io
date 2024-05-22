@@ -47,6 +47,7 @@ h2{
 .profile-pic {
     flex: 1;
     text-align: center;
+    border: var(--secondary_color);
 }
 
 .profile-pic img {
