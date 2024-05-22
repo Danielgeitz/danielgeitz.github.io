@@ -40,7 +40,7 @@ h1 {
 
 .intro p {
     color: var(--text_color);
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -54,7 +54,7 @@ h1 {
     width: 200px; /* Adjust as needed */
     height: auto;
     border-radius: 50%;
-    margin-top: 20px;
+    
 }
 
 #contact {
@@ -62,5 +62,6 @@ h1 {
 }
 
 #contact p {
-    font-size: 16px;
+    color: var(--text2_color);
+    font-size: 18px;
 }
