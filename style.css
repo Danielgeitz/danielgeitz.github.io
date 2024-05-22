@@ -12,7 +12,7 @@
     --text2_color: #a0a0a0;
     --primary_color: #181818;
     --primary2_color: #363636;
-    --secondry_color: #0088a9;
+    --secondary_color: #0088a9;
 }
 
 li, a, button{
@@ -92,11 +92,11 @@ ul.nav_links{
 }*/
 
 .nav_links li a:hover{
-    color: var(--secondry_color);
+    color: var(--secondary_color);
 }
 
 button:hover{
-    background-color: var(--secondry_color);
+    background-color: var(--secondary_color);
 }
 
 
