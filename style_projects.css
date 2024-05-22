@@ -14,7 +14,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: var(--primary_color);
 }
 
 #portfolio {
@@ -35,8 +35,8 @@ h1 {
 }
 
 .project-card {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: var(--primary_color);
+    border: 1px solid var(--primary2_color);
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
