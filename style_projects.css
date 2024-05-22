@@ -1,20 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,');
 
-h1{
-    padding-left: 5%;
-    padding-top: 3%;
-    text-align: justify;
-    font-size: 36px;
-    font-family: "Montserrat", "san-serif";
-    font-weight: lighter;
-    color: var(--text_color);    
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: var(--primary_color);
+    background-color: #f4f4f4;
 }
 
 #portfolio {
@@ -35,24 +25,42 @@ h1 {
 }
 
 .project-card {
-    background: var(--text_color);
-    border: 1px solid var(--primary2_color);
+    background: #fff;
+    border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    transition: transform 0.2s, width 0.4s, height 0.4s;
+    cursor: pointer;
+    position: relative;
 }
 
 .project-card:hover {
     transform: scale(1.05);
 }
 
+.project-card.expanded {
+    width: 90vw;
+    height: 90vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .project-card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    transition: height 0.4s;
+}
+
+.project-card.expanded img {
+    height: 50%;
 }
 
 .project-info {
@@ -60,7 +68,6 @@ h1 {
 }
 
 .project-info h2 {
-    color: var(--text_color);
     margin: 0;
     font-size: 1.5em;
 }
@@ -68,4 +75,26 @@ h1 {
 .project-info p {
     color: #666;
     margin-top: 10px;
+}
+
+.more-info {
+    display: none;
+}
+
+.project-card.expanded .more-info {
+    display: block;
+    margin-top: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+.project-card.expanded .close-btn {
+    display: block;
 }
