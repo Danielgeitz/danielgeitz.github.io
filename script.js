@@ -11,7 +11,13 @@ function updateOverlayContent(card) {
     document.getElementById('overlay-image').src = card.querySelector('img').src;
     document.getElementById('overlay-title').innerText = card.querySelector('h3').innerText;
     document.getElementById('overlay-description').innerText = card.querySelector('p').innerText;
+
+    // Get the extra content from the data attribute
+    var extraContentHTML = card.dataset.extraContent;
+    // Set the extra content in the overlay
+    document.getElementById('overlay-extra-content').innerHTML = extraContentHTML;
 }
+
 
 function closeOverlay() {
     document.getElementById('overlay').classList.remove('show');
