@@ -113,15 +113,15 @@ h1 {
 }
 
 .overlay img {
-    max-width: 100%;
-    height: auto;
+    max-width: 90%;
+    height: 90%;
     margin-bottom: 20px;
 }
 
 .close-btn {
     color: var(--text_color);
     background: rgba(0, 0, 0, 0);
-    position: absolute;
+    position: relative;
     top: 10px;
     right: 15px;
     font-size: 40px;
@@ -133,7 +133,7 @@ h1 {
 }
 
 .nav-btn {
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
     font-size: 40px;
