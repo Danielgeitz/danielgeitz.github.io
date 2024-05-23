@@ -104,9 +104,9 @@ h1 {
     background: rgba(0, 0, 0, 0);
 }
 
-.detailed-description p{
+.extra-paragraph p{
     color: var(--text_color);
-    font-size: 18px;
+    font-size: 20x;
     background: rgba(0, 0, 0, 0);
     font-family: "Montserrat", "sans-serif";
     text-align: center;
