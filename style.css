@@ -188,3 +188,28 @@ button:hover{
         font-size: 12px;
     }
 }
+
+@media (max-width: 480px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .logo {
+        margin-bottom: 10px;
+    }
+    .nav_links {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nav_links li {
+        width: 100%;
+        text-align: left;
+    }
+    .nav_links li a {
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
