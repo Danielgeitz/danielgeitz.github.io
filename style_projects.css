@@ -104,6 +104,14 @@ h1 {
     background: rgba(0, 0, 0, 0);
 }
 
+.detailed-description p{
+    color: var(--text_color);
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0);
+    font-family: "Montserrat", "sans-serif";
+    text-align: center;
+}
+
 .overlay img {
     max-width: 100%;
     height: auto;
