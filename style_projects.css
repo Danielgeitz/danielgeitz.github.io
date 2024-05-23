@@ -104,7 +104,7 @@ h1 {
     background: rgba(0, 0, 0, 0);
 }
 
-.extra-paragraph p{
+.extra-paragraph{
     color: var(--text_color);
     font-size: 20x;
     background: rgba(0, 0, 0, 0);
