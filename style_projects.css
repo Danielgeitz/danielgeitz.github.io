@@ -83,6 +83,7 @@ h1 {
 }
 
 .overlay-content {
+    color: var(--text_color);
     background: var(--primary2_color);
     padding: 20px;
     border-radius: 8px;
@@ -127,7 +128,7 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 30px;
+    font-size: 40px;
     background: none;
     border: none;
     color: var(--text_color);
