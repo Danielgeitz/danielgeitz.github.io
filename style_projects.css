@@ -104,14 +104,6 @@ h1 {
     background: rgba(0, 0, 0, 0);
 }
 
-.extra-paragraph{
-    color: var(--text_color);
-    font-size: 20px;
-    background: rgba(0, 0, 0, 0);
-    font-family: "Montserrat", "sans-serif";
-    text-align: center;
-}
-
 .overlay img {
     max-width: 90%;
     height: 90%;
@@ -152,4 +144,9 @@ h1 {
 
 .next-btn {
     right: 10px;
+}
+
+.extra-paragraph {
+    color: var(--text_color); /* Example of different color for extra paragraph */
+    font-size: 20px; /* Example of different font size */
 }
