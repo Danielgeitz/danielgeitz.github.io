@@ -106,7 +106,7 @@ h1 {
 
 .extra-paragraph{
     color: var(--text_color);
-    font-size: 20x;
+    font-size: 20px;
     background: rgba(0, 0, 0, 0);
     font-family: "Montserrat", "sans-serif";
     text-align: center;
