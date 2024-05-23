@@ -1,8 +1,3 @@
-function toggleMenu() {
-    const navLinks = document.querySelector('.nav_links');
-    navLinks.classList.toggle('show');
-}
-
 var currentProjectIndex = 0;
 var projects = document.querySelectorAll('.card');
 
@@ -30,4 +25,9 @@ function prevProject() {
 function nextProject() {
     currentProjectIndex = (currentProjectIndex + 1) % projects.length;
     updateOverlayContent(projects[currentProjectIndex]);
+}
+
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav_links');
+    navLinks.classList.toggle('show');
 }
