@@ -14,7 +14,7 @@ h1 {
     font-size: 36px;
     font-family: "Montserrat", "sans-serif";
     font-weight: lighter;
-    color: #181818; /* Reverted back to original color */
+    color: var(--text_color);    
 }
 
 .portfolio {
@@ -45,13 +45,13 @@ h1 {
 }
 
 .card h3 {
-    color: #181818; /* Reverted back to original color */
+    color: var(--secondary_color);
     margin: 10px;
     font-size: 18px; /* Adjusted font size */
 }
 
 .card p {
-    color: #555; /* Reverted back to original color */
+    color: var(--text2_color);
     margin: 10px;
     font-size: 14px; /* Adjusted font size */
     flex-grow: 1; /* Allow description to take available space */
@@ -83,8 +83,8 @@ h1 {
 }
 
 .overlay-content {
-    color: #181818; /* Reverted back to original color */
-    background: #fff; /* Reverted back to original color */
+    color: var(--text_color);
+    background: var(--primary2_color);
     padding: 20px;
     border-radius: 8px;
     text-align: center;
@@ -94,12 +94,14 @@ h1 {
     overflow: auto; /* Enable scrolling if content overflows */
 }
 
-.overlay h3 {
-    color: #181818; /* Reverted back to original color */
+.overlay h3{
+    color: var(--text_color);
+    background: rgba(0, 0, 0, 0);
 }
 
-.overlay p {
-    color: #555; /* Reverted back to original color */
+.overlay p{
+    color: var(--text2_color);
+    background: rgba(0, 0, 0, 0);
 }
 
 .overlay img {
@@ -109,7 +111,8 @@ h1 {
 }
 
 .close-btn {
-    color: #181818;
+    color: var(--text_color);
+    background: rgba(0, 0, 0, 0);
     position: absolute;
     top: 10px;
     right: 15px;
@@ -128,7 +131,7 @@ h1 {
     font-size: 40px;
     background: none;
     border: none;
-    color: #181818;
+    color: var(--text_color);
     cursor: pointer;
     width: 40px;
     height: 40px;
