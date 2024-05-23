@@ -127,20 +127,20 @@ h1 {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 24px;
+    font-size: 30px;
     background: none;
     border: none;
     color: var(--text_color);
     cursor: pointer;
-    width: 55px;
-    height: 55px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 
 .prev-btn {
-    left: 20px;
+    left: 10px;
 }
 
 .next-btn {
-    right: 20px;
+    right: 10px;
 }
