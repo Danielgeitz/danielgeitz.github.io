@@ -24,67 +24,68 @@ body {
     background: var(--primary_color);
   }
   
-  h1 {
-    font-size: clamp(1rem, 3vw + 1rem, 4rem);
-    position: relative;
-    font-family: "Source Code Pro", monospace;
-    position: flex;
-    align-items: center;
+  .hero {
+    height: 100vh;
+    background: url('path-to-your-image.jpg') no-repeat center center/cover;
+    display: flex;
     justify-content: center;
-    width: max-content;
-  }
-  
-  h1::before,
-  h1::after {
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero::before {
     content: "";
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     top: 0;
+    left: 0;
     right: 0;
     bottom: 0;
-    left: 0;
-  }
-  
-  h1::before {
-    background: var(--primary_color);
-    animation: typewriter var(--typewriterSpeed)
-      steps(var(--typewriterCharacters)) 1s forwards;
-  }
-  
-  h1::after {
-    width: 0.125em;
-    background: var(--text_color);
-    animation: typewriter var(--typewriterSpeed)
-        steps(var(--typewriterCharacters)) 1s forwards,
-      blink 750ms steps(var(--typewriterCharacters)) infinite;
-  }
-  
-  .subtitle {
-    color: var(--text_color /0.7%);
-    font-size: 2rem;
-    font-weight: 400;
-    opacity: 0;
-    transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
-  }
-  
-  @keyframes typewriter {
-    to {
-      left: 100%;
-    }
-  }
-  
-  @keyframes blink {
-    to {
-      background: transparent;
-    }
-  }
-  
-  @keyframes fadeInUp {
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+    background: rgba(0, 0, 0, 0.5); /* Optional overlay for better text readability */
+}
+
+.hero-content {
+    z-index: 1;
+    max-width: 80%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: var(--secondary_color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: var(--primary2_color);
+}
+
+.cta-secondary {
+    background-color: var(--primary2_color);
+}
+
+.cta-secondary:hover {
+    background-color: var(--secondary_color);
+}
