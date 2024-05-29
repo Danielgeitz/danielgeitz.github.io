@@ -158,3 +158,20 @@ h1 {
     color: var(--text_color); /* Example of different color for extra paragraph */
     font-size: 16px; /* Example of different font size */
 }
+
+@media (max-width: 768px) {
+    .portfolio {
+        flex-direction: column; /* Stack the cards vertically */
+        align-items: center; /* Center the cards */
+    }
+
+    .card {
+        flex: 0 0 100%; /* Full width */
+        max-width: 100%; /* Ensure it doesn't exceed full width */
+        margin: 10px 0; /* Margin between cards */
+    }
+
+    .card img {
+        height: auto; /* Adjust image height to content */
+    }
+}
