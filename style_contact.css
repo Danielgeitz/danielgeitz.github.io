@@ -19,3 +19,25 @@ h1{
     color: var(--text2_color);
     font-size: 18px;
 }
+
+.contact h2{
+    color: var(--secondary_color);
+}
+
+.contact-links {
+    text-align: center;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-links a i {
+    margin-right: 5px;
+}
