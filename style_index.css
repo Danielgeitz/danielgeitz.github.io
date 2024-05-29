@@ -27,7 +27,7 @@ body {
   .hero {
     height: 100vh;
     background: url('path-to-your-image.jpg') no-repeat center center/cover;
-    margin-top: 20%;
+    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -79,4 +79,27 @@ body {
 
 .cta-secondary:hover {
     background-color: var(--secondary_color);
+}
+
+.introduction {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+.intro-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.introduction h2 {
+  font-size: 32px;
+  color: var(--text_color);
+  margin-bottom: 20px;
+}
+
+.introduction p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text2_color);
 }
