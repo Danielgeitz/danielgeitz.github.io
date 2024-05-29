@@ -164,6 +164,7 @@ h1 {
         flex: 0 0 45%; /* Adjust width for smaller screens */
         margin: 10px; /* Adjust margin */
         height: auto; /* Adjust height */
+        padding: 10px 15px;
     }
 }
 
