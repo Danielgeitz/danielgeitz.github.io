@@ -26,15 +26,12 @@ li, a, button {
 header {
     position: fixed;
     display: flex;
-    justify-content: center; /* Center content horizontally */
+    justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
     background-color: var(--primary2_color);
-    width: 100%; /* Ensure the header spans the full width */
-    z-index: 1000; /* Ensure the header is above other content */
+    flex-wrap: wrap; /* Allow wrapping */
 }
-
-
 
 footer {
     background-color: var(--primary_color);
