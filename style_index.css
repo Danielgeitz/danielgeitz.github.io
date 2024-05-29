@@ -27,6 +27,7 @@ body {
   .hero {
     height: 100vh;
     background: url('path-to-your-image.jpg') no-repeat center center/cover;
+    margin-top: 20%;
     display: flex;
     justify-content: center;
     align-items: start;
