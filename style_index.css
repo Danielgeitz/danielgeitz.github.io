@@ -28,7 +28,7 @@ body {
   .hero {
     height: 65vh;
     background: url('images/ChristmasStageDesign23.jpg') no-repeat center center/cover;
-    margin-top: 10%;
+    margin-top: 7%;
     margin-bottom: 0%;
     display: flex;
     justify-content: start;
