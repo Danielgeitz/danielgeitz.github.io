@@ -22,7 +22,7 @@ body {
     place-content: space-around start;
     text-align: center;
     background: var(--primary_color);
-    background-color: rgba(0, 0, 0, 0);
+    
   }
   
   .hero {
@@ -31,15 +31,17 @@ body {
     margin-top: 10%;
     margin-bottom: 0%;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: start;
     text-align: center;
     color: white;
     position: relative;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .hero-content {
     z-index: 1;
+    padding-top: 15%;
 }
 
 .hero h1 {
