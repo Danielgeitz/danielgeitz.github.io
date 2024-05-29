@@ -25,7 +25,7 @@ body {
   }
   
   .hero {
-    height: 100vh;
+    height: 10%;
     background: url('path-to-your-image.jpg') no-repeat center center/cover;
     margin-top: 10%;
     margin-bottom: 0%;
@@ -34,13 +34,11 @@ body {
     align-items: start;
     text-align: center;
     color: white;
-    position: static;
+    position: relative;
 }
 
 .hero-content {
     z-index: 1;
-    max-width: 80%;
-    margin-bottom: 0%;
 }
 
 .hero h1 {
