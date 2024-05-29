@@ -25,7 +25,7 @@ body {
   }
   
   .hero {
-    height: 25%;
+    height: 65vh;
     background: url('path-to-your-image.jpg') no-repeat center center/cover;
     margin-top: 10%;
     margin-bottom: 0%;
