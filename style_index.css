@@ -130,5 +130,9 @@ body {
   .hero-content{
     padding: 10px 15px;
   }
+
+  .intro-container{
+    padding: 10px 15px;
+  }
   
 }
