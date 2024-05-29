@@ -86,10 +86,13 @@ button:hover {
 }
 
 .hamburger-menu {
-    display: none;
+    display: none; /* Hide the hamburger menu by default */
     font-size: 30px;
     cursor: pointer;
     color: var(--text_color);
+    position: absolute; /* Use absolute positioning */
+    top: 15px; /* Adjust this value as needed to position it from the top */
+    right: 15px; /* Adjust this value as needed to position it from the right */
 }
 
 @media (max-width: 768px) {
@@ -112,7 +115,7 @@ button:hover {
         padding: 10px 15px;
     }
     .hamburger-menu {
-        display: block; /* Show the hamburger menu */
+        display: contents; /* Show the hamburger menu */
     }
 }
 
