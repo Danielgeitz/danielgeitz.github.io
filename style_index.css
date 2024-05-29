@@ -114,6 +114,7 @@ body {
 }
 
 @media (max-width: 480px) {
+
   .hero-content h1 {
       font-size: 2em;
   }
@@ -126,4 +127,8 @@ body {
   .cta-button {
       padding: 10px 15px;
   }
+  .hero-content{
+    padding: 10px 15px;
+  }
+  
 }
