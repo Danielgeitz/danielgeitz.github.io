@@ -82,7 +82,8 @@ body {
 }
 
 .introduction {
-  background-color: #f9f9f9;
+  justify-content: flex-start;
+  background-color: var(--primary_color);
   padding: 50px 0;
 }
 
