@@ -112,3 +112,18 @@ body {
   line-height: 1.6;
   color: var(--text2_color);
 }
+
+@media (max-width: 480px) {
+  .hero-content h1 {
+      font-size: 2em;
+  }
+  .hero-content p {
+      font-size: 1em;
+  }
+  .cta-buttons {
+      flex-direction: column;
+  }
+  .cta-button {
+      padding: 10px 15px;
+  }
+}
