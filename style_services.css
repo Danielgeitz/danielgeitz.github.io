@@ -60,6 +60,7 @@ h1{
 @media (max-width: 768px) {
     .tier {
         width: 65%;
+        height: 30%;
     }
 }
 
