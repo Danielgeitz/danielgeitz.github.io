@@ -27,13 +27,14 @@ li, a, button {
 }
 
 header {
-    position: static;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
     background-color: var(--primary2_color);
     flex-wrap: wrap; /* Allow wrapping */
+    width: 100%;
 }
 
 footer {
@@ -122,6 +123,12 @@ button:hover {
     }
     .hamburger-menu {
         display: contents; /* Show the hamburger menu */
+        position: absolute; /* Position the hamburger menu */
+        top: 15px; /* Adjust as needed */
+        right: 15px; /* Adjust as needed */
+        font-size: 30px; /* Keep the font size */
+        cursor: pointer;
+        color: var(--text_color);
     }
 }
 
