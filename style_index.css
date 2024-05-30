@@ -10,8 +10,6 @@
     --primary_color: #181818;
     --primary2_color: #363636;
     --secondry_color: #0088a9;
-    --typewriterSpeed: 6s;
-    --typewriterCharacters: 25;
   }
 
 body {
@@ -21,7 +19,8 @@ body {
     display: inline;
     place-content: space-around start;
     text-align: center;
-    background: var(--primary_color);
+    background-color: var(--primary_color);
+    
     
   }
   

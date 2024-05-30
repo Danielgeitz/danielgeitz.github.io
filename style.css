@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: var(--primary_color);
+    
 }
 
 :root {
@@ -64,6 +64,7 @@ footer {
 }
 
 .nav_links li {
+    margin: 0px 10px 0 0;
     background-color: var(--primary2_color);
     display: inline-block;
     padding: 0;
