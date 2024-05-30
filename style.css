@@ -118,6 +118,7 @@ button:hover {
         display: block;
         width: 100%;
         padding: 10px 15px;
+        margin: 3px;
     }
     .hamburger-menu {
         display: contents; /* Show the hamburger menu */

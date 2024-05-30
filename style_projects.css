@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    
+
 }
 
 h1 {
@@ -165,6 +165,10 @@ h1 {
         margin: 10px; /* Adjust margin */
         height: auto; /* Adjust height */
         padding: 10px 15px;
+    }
+
+    .overlay img{
+        max-width: 100%;
     }
 }
 
