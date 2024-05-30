@@ -173,10 +173,6 @@ h1 {
         object-fit: cover; 
     }
 
-    .overlay-content {
-        max-height: 80vh; /* Limit the height of the container */
-        overflow: hidden; /* Hide overflow content */
-    }
 }
 
 @media (max-width: 480px) {
