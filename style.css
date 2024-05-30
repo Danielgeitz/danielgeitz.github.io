@@ -4,7 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+}
+
+body{
+    background-color: var(--primary_color)
 }
 
 :root {
@@ -76,6 +79,7 @@ footer {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease;
+    background-color: var(--primary_color);
 }
 
 .nav_links li a:hover {

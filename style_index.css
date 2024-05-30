@@ -18,11 +18,8 @@ body {
     min-height: 100vh;
     display: inline;
     place-content: space-around start;
-    text-align: center;
-    background-color: var(--primary_color);
-    
-    
-  }
+    text-align: center;   
+}
   
   .hero {
     height: 65vh;
