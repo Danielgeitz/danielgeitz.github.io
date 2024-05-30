@@ -109,6 +109,51 @@ body {
   color: var(--text2_color);
 }
 
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  padding: 20px 5%;
+  background-color: var(--primary2_color);
+}
+
+.feature {
+  text-align: center;
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background-color: var(--primary_color);
+  border-radius: 10px;
+}
+
+.feature i {
+  font-size: 40px;
+  color: var(--secondary_color);
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  color: var(--text_color);
+  margin: 10px 0;
+}
+
+.feature p {
+  color: var(--text2_color);
+}
+
+@media (max-width: 768px) {
+  .features {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .feature {
+      width: 90%;
+      margin-bottom: 20px;
+  }
+}
+
+
 @media (max-width: 480px) {
 
   .hero-content h1 {
