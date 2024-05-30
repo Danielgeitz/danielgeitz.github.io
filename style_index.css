@@ -207,6 +207,43 @@ body {
       width: 90%;
       margin-bottom: 20px;
   }
+  
+  .skills-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  .skills-content {
+    max-width: 80%;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--primary_color);
+  }
+
+  .skills-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .skills-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .skills-list li {
+    font-size: 14px;
+  }
+
+  .skills-list li i {
+    margin-right: 8px;
+    font-size: 16px;
+  }
+
+  .skills-image {
+    max-width: 80%;
+  }
+  
 }
 
 
