@@ -47,7 +47,6 @@ h1{
 }
 
 .tier ul li {
-    justify-content: start;
     font-size: 18px;
     padding: 10px 0;
     border-bottom: 1px solid var(--text2_color);
