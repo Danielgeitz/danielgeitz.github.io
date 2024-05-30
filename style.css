@@ -123,10 +123,6 @@ button:hover {
     .hamburger-menu {
         display: contents; /* Show the hamburger menu */
     }
-
-    header{
-        padding: 0 10% 0 30%;
-    }
 }
 
 @media (max-width: 480px) {
