@@ -141,6 +141,54 @@ body {
   color: var(--text2_color);
 }
 
+.skills-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+}
+
+.skills-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+.skills-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.skills-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills-list li {
+  margin-bottom: 10px;
+}
+
+.skills-list li i {
+  margin-right: 10px;
+  color: #0088a9; /* Adjust color as needed */
+}
+
+.skills-image {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.skills-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 @media (max-width: 768px) {
   .features {
       flex-direction: column;
