@@ -146,11 +146,16 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 50px 20px;
+  background-color: var(--primary2_color);
 }
 
 .skills-content {
   flex: 1;
   max-width: 50%;
+  padding: 0 25px;
+  border-radius: 10px;
+  background-color: var(--primary_color)
+  
 }
 
 .skills-content h2 {
@@ -185,7 +190,8 @@ body {
 
 .skills-image img {
   max-width: 100%;
-  height: auto;
+  height: 40vh;
+  border-radius: 20px;
 }
 
 
