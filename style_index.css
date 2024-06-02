@@ -204,6 +204,12 @@ body {
   background-color: var(--primary2_color);
 }
 
+.testimonial-container{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .testimonial {
   flex: 1;
   margin: 10px;
