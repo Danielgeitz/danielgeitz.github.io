@@ -198,7 +198,7 @@ body {
 
 .testimonials {
   padding: 50px 20px;
-  background-color: var(--primary_color);
+  background-color: var(--primary2_color);
   text-align: center;
 }
 
@@ -213,14 +213,16 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .testimonial {
-  background-color: var(--primary2_color);
+  background-color: var(--primary_color);
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  width: 30%;
+  flex: 1;
+  max-width: 30%;
   text-align: left;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
