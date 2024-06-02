@@ -221,12 +221,17 @@ body {
 }
 
 .testimonial h3 {
+  font-size: 32px;
   color: var(--text_color);
-  margin: 10px 0;
+  margin-bottom: 20px;
 }
 
 .testimonial p {
   color: var(--text2_color);
+}
+
+.event-type p {
+  color: var(--secondary_color);
 }
 
 @media (max-width: 768px) {
