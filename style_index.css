@@ -227,7 +227,7 @@ body {
   margin-bottom: 10px;
 }
 
-.testimonial h2{
+.testimonials h2{
   display: flex;
   color: var(--text_color);
 }
