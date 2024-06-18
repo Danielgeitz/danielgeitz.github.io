@@ -228,8 +228,9 @@ body {
 }
 
 .testimonials h2{
-  display: flex;
+  font-size: 32px;
   color: var(--text_color);
+  margin-bottom: 20px;
 }
 
 .testimonial h3 {
