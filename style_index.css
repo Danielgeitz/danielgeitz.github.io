@@ -198,10 +198,11 @@ body {
 
 .testimonials {
   display: flex;
-  justify-content: space-around;
-  align-items: flex-start;
-  padding: 20px 5%;
-  background-color: var(--primary2_color);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: var(--primary2_color);
+    gap: 20px; /* Added gap for spacing between testimonials */
 }
 
 .testimonial-container{
