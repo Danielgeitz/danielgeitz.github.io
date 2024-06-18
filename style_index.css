@@ -196,6 +196,13 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.testimonial-container {
+  display: contents;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .testimonials {
   display: flex;
   justify-content: space-around;
@@ -218,6 +225,11 @@ body {
   height: 80px;
   border-radius: 50%;
   margin-bottom: 10px;
+}
+
+.testimonial h2{
+  display: flex;
+  color: var(--text_color);
 }
 
 .testimonial h3 {
