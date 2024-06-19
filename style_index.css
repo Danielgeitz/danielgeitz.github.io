@@ -266,6 +266,18 @@ p.event-type {
   margin-bottom: 20px;
 }
 
+.cta-buttons2 {
+    padding: 15px 30px; /* Increased padding */
+    font-size: 20px; /* Increased font size */
+    color: white;
+    background-color: var(--secondary_color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
 
 @media (max-width: 768px) {
   .features {
