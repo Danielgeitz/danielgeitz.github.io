@@ -197,7 +197,7 @@ body {
 }
 
 .testimonial-container {
-  margin: 0 0 25px;
+  margin: 0 0 50px;
   text-align: center;
 }
 
@@ -258,6 +258,32 @@ p.event-type {
 
 .cta-content {
   text-align: center;
+}
+
+.cta-section h2{
+  font-size: 32px;
+  color: var(--text_color);
+  margin-bottom: 20px;
+}
+
+.cta-button2 {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: var(--secondry_color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button2:hover {
+  background-color: var(--primary_color);
+}
+
+.cta-secondary2 {
+  background-color: var(--primary_color);
 }
 
 @media (max-width: 768px) {
