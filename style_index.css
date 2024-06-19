@@ -247,6 +247,32 @@ p.event-type {
   color: var(--secondary_color);
 }
 
+.testimonials-slider {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.testimonial-slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider-controls {
+  position: relative;
+  top: -50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slider-controls .prev,
+.slider-controls .next {
+  cursor: pointer;
+  font-size: 24px;
+  color: var(--text_color);
+}
+
 .cta-section {
   display: flex;
   justify-content: center;
@@ -324,21 +350,19 @@ p.event-type {
   .skills-image {
     max-width: 80%;
   }
-}
 
-.testimonial {
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
 
-.testimonial img {
-  margin-bottom: 15px;
-  margin-right: 0;
-}
+  .testimonials-slider {
+    display: flex;
+  }
 
-.testimonial-content {
-  max-width: 100%;
+  .testimonial-slide {
+    min-width: 100%;
+  }
+
+  .slider-controls {
+    display: flex;
+  }
 }
 
 @media (max-width: 480px) {
