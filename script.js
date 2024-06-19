@@ -39,12 +39,3 @@ function toggleMenu() {
 }
 
 let currentSlide = 0;
-
-function changeSlide(n) {
-    const slides = document.querySelectorAll('.testimonial-slide');
-    currentSlide = (currentSlide + n + slides.length) % slides.length;
-    const newTransformValue = `translateX(-${currentSlide * 100}%)`;
-    slides.forEach(slide => {
-        slide.style.transform = newTransformValue;
-    });
-}
