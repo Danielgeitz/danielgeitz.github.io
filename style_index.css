@@ -277,8 +277,6 @@ p.event-type {
     transition: background-color 0.3s;
 }
 
-/* Add this to your CSS file */
-
 .popup-modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */

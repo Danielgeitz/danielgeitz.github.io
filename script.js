@@ -38,23 +38,7 @@ function toggleMenu() {
     navLinks.classList.toggle('show');
 }
 
-// script.js
-
 document.addEventListener('DOMContentLoaded', function() {
-    // Language toggle script
-    const langToggle = document.getElementById('language-toggle');
-    const elements = document.querySelectorAll('[data-en]');
-
-    langToggle.addEventListener('click', function() {
-        const isGerman = langToggle.textContent === 'EN';
-
-        elements.forEach(el => {
-            el.textContent = isGerman ? el.getAttribute('data-en') : el.getAttribute('data-de');
-        });
-
-        langToggle.textContent = isGerman ? 'DE' : 'EN';
-    });
-
     // Popup modal script
     const popupModal = document.getElementById('popup-modal');
     const closePopup = document.getElementById('close-popup');
