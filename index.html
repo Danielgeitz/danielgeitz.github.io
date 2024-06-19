@@ -110,24 +110,6 @@
         </div>
       </div>
 
-      <div class="slider-controls">
-        <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
-        <span class="next" onclick="changeSlide(1)">&#10095;</span>
-    </div>
-
-    <script>
-        let currentSlide = 0;
-
-        function changeSlide(n) {
-        const slides = document.querySelectorAll('.testimonial-slide');
-        currentSlide = (currentSlide + n + slides.length) % slides.length;
-        const newTransformValue = `translateX(-${currentSlide * 100}%)`;
-        slides.forEach(slide => {
-        slide.style.transform = newTransformValue;
-    });
-}
-    </script>
-
       <section class="cta-section">
         <div class="cta-content">
             <h2>Let's Bring Your Event To Life!</h2>
