@@ -269,6 +269,7 @@ p.event-type {
 .cta-buttons2 {
     padding: 15px 30px; /* Increased padding */
     font-size: 20px; /* Increased font size */
+    gap: 20px;
     color: white;
     background-color: var(--secondary_color);
     border: none;
