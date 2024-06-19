@@ -253,14 +253,19 @@ p.event-type {
   align-items: center;
   padding: 50px 0px 25px;
   background-color: var(--primary_color);
+  text-align: center;
 }
 
-.cta-section h2{
+.cta-content {
+  text-align: center;
+}
+
+.cta-section h2 {
   font-size: 32px;
   color: var(--text_color);
   margin-bottom: 20px;
-  padding-right: 100px;
 }
+
 
 @media (max-width: 768px) {
   .features {
