@@ -247,6 +247,14 @@ p.event-type {
   color: var(--secondary_color);
 }
 
+.cta-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  background-color: var(--primary_color);
+}
+
 @media (max-width: 768px) {
   .features {
       flex-direction: column;
