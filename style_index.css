@@ -202,7 +202,7 @@ body {
 }
 
 .testimonials-header {
-  font-size: 32px;
+  font-size: 16px;
   font-family: "Montserrat", "san-serif";
   text-align: center;
   padding: 50px;
@@ -222,7 +222,7 @@ body {
   text-align: center;
   flex: 1;
   align-self: stretch;
-  margin: 0px;
+  margin: 10px;
   padding: 20px;
   background-color: var(--primary2_color);
   border-radius: 10px;
@@ -253,37 +253,11 @@ p.event-type {
   justify-content: center;
   align-items: center;
   padding: 50px 0;
-  background-color: var(--primary2_color);
+  background-color: var(--primary_color);
 }
 
 .cta-content {
   text-align: center;
-}
-
-.cta-section h2{
-  font-size: 32px;
-  color: var(--text_color);
-  margin-bottom: 20px;
-}
-
-.cta-button2 {
-  padding: 10px 20px;
-  font-size: 18px;
-  color: white;
-  background-color: var(--secondry_color);
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  transition: background-color 0.3s;
-}
-
-.cta-button2:hover {
-  background-color: var(--primary_color);
-}
-
-.cta-secondary2 {
-  background-color: var(--primary_color);
 }
 
 @media (max-width: 768px) {
