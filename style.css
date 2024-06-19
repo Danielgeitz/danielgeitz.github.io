@@ -61,19 +61,6 @@ footer {
     display: flex;
     flex-direction: row;
 }
-.nav_links button {
-    background: none;
-    border: none;
-    color: var(--text_color);
-    font-size: 16px;
-    cursor: pointer;
-    padding: 0;
-    margin-left: 15px;
-}
-
-.nav_links button:hover {
-    text-decoration: underline;
-}
 
 .nav_links[aria-current="page"] {
     text-decoration: underline wavy yellow 0.15rem;

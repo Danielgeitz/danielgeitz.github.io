@@ -38,17 +38,3 @@ function toggleMenu() {
     navLinks.classList.toggle('show');
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const langToggle = document.getElementById('language-toggle');
-    const elements = document.querySelectorAll('[data-en]');
-
-    langToggle.addEventListener('click', function() {
-        const isGerman = langToggle.textContent === 'EN';
-
-        elements.forEach(el => {
-            el.textContent = isGerman ? el.getAttribute('data-en') : el.getAttribute('data-de');
-        });
-
-        langToggle.textContent = isGerman ? 'DE' : 'EN';
-    });
-});
