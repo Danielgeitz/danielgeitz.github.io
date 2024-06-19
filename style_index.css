@@ -255,8 +255,9 @@ p.event-type {
   background-color: var(--primary_color);
 }
 
-.cta-section h3{
-  font-size: 24px;
+.cta-section h2{
+  display: flex;
+  font-size: 32px;
   color: var(--text_color);
   margin-bottom: 20px;
 }
